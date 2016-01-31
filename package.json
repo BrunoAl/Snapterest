@@ -1,0 +1,33 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton for react apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/app.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoAl/react-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoAl/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/BrunoAl/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-watch": "^4.3.5",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "snapkite-stream-client": "^1.0.3",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  }
+}
