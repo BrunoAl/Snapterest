@@ -46,7 +46,7 @@ var StreamTweet = React.createClass({
     var headerText;
 
     this.setState({
-      numberOfCharactersIsIncreasing: inNumberOfCharacterIncreasing
+      numberOfCharactersIsIncreasing: isNumberOfCharactersIsIncreasing
     });
 
     if(isNumberOfCharactersIsIncreasing) {
